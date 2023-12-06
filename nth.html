@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nth 수열선택자</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <style>
+        .box h1 {background-color: deeppink;}
+        .box p:nth-child(2) {background-color: darkred;}
+        .box p:nth-child(3) {background-color: chocolate;}
+        .box p:nth-child(4) {background-color: goldenrod;}
+
+        .box p:nth-of-type(1) {border: 2px solid #000;}
+        .box p:nth-of-type(2) {border: 2px solid crimson;}
+        .box p:nth-of-type(3) {border: 2px solid olive;}
+
+        .box h1:first-child {color: yellowgreen;}
+        .box p:first-of-type {color: paleturquoise;}
+
+        .box p:nth-last-child(2) {font-size: 2rem;}
+
+        /* ul {}
+        ul li {
+            border: 1px solid #555;
+            width: 200px; height: 200px;
+            display: inline-block;
+        }
+        ul li:first-child {border-width: 5px;}
+        ul li:nth-last-child(4) {border-color: red;}
+        ul li:nth-child(even) {background-color: aquamarine;}
+        ul li:nth-child(odd) {background-color: magenta;}
+        ul li:nth-child(4n+2) {background-color: khaki;}
+        ul li:nth-child(3n) {width: 100px;} */
+
+        ul {}
+        ul li {
+            width: 200px; height: 200px;
+            border: 1px solid black;
+            display: inline-block;
+        }
+        ul li:nth-child(4) {background-color: black;}
+        ul li:nth-child(5) {background-color: black;}
+        ul li:nth-child(6) {background-color: black;}
+        ul li:nth-child(11) {background-color: black;}
+        ul li:nth-child(12) {background-color: black;}
+        ul li:nth-child(16) {background-color: black;}
+        ul li:nth-child(17) {background-color: black;}
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>제목</h1>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+    </div>
+    <hr>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</body>
+</html>
