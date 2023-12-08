@@ -1,0 +1,50 @@
+/* index */
+header {
+    padding: 20px 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: fixed;
+    width: 100%;
+}
+header h1 {
+    font-family: Gugi;
+    font-size: 2.5rem;
+    color: white;
+}
+header h1 img {width: 60px;}
+header nav {}
+header nav a {
+    padding-left: 10px;
+    letter-spacing: 1.5;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: 'Noto Sans KR';
+    color: white;
+}
+main {
+    background-color: black;
+    text-align: center;
+}
+main h1 {
+    font-family: Gugi;
+    font-size: 3.125rem;
+}
+main .photo {}
+main .photo video {width: 100vw;}
+main .contents {
+    font-weight: 700;
+    color: white;
+}
+footer {
+    border-top: 1px solid white;
+    background-color: black;
+    padding: 30px 50px;
+}
+footer p {
+    color: white;
+    line-height: 1.5;
+}
+
+/* intro */
