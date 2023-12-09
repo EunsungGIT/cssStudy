@@ -1,50 +1,53 @@
-/* index */
+/* header */
 header {
-    padding: 20px 50px;
+    width: 100%;
+    position: relative;
+
+}
+header .text {
+    width: 100vw;
+    padding: 30px 50px;
+    position: absolute;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: flex-end;
-    position: fixed;
-    width: 100%;
 }
-header h1 {
+header .text h1 {}
+header .text h1 a {
+    color: white;
     font-family: Gugi;
-    font-size: 2.5rem;
-    color: white;
+    font-size: 1.875rem;
 }
-header h1 img {width: 60px;}
-header nav {}
-header nav a {
-    padding-left: 10px;
-    letter-spacing: 1.5;
-    font-size: 1.25rem;
-    font-weight: 700;
-    font-family: 'Noto Sans KR';
+header .text h1 a img {width: 50px;}
+header .main_text {
     color: white;
-}
-main {
-    background-color: black;
+    position: absolute;
     text-align: center;
+    padding: 30%;
 }
-main h1 {
-    font-family: Gugi;
-    font-size: 3.125rem;
-}
-main .photo {}
-main .photo video {width: 100vw;}
-main .contents {
+header .text nav {}
+header .text nav a {
+    color: white;
+    margin-left: 20px;
+    font-family: 'Noto Sans KR';
     font-weight: 700;
-    color: white;
+    font-size: 1.25rem;
+    letter-spacing: 1.5;
 }
-footer {
-    border-top: 1px solid white;
-    background-color: black;
-    padding: 30px 50px;
-}
-footer p {
-    color: white;
-    line-height: 1.5;
-}
+header .video {}
+header .video video {width: 100%}
 
-/* intro */
+/* main */
+
+/* footer */
+footer {
+    background-color: yellow;
+    padding: 20px 50px;
+}
+footer h3 {
+    font-family: Gugi;
+    margin-bottom: 10px;
+}
+footer h3 img {width: 50px;}
+footer .copyright {font-family: 'Noto Sans KR';}

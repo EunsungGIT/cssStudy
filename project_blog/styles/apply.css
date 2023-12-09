@@ -1,0 +1,48 @@
+/* header */
+header {
+    width: 100%;
+    position: relative;
+
+}
+header .text {
+    width: 100vw;
+    padding: 30px 50px;
+    position: absolute;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+header .text h1 {}
+header .text h1 a {
+    color: white;
+    font-family: Gugi;
+    font-size: 1.875rem;
+}
+header .text h1 a img {width: 50px;}
+header .text nav {}
+header .text nav .click {color: yellow;}
+header .text nav a {
+    color: white;
+    margin-left: 20px;
+    font-family: 'Noto Sans KR';
+    font-weight: 700;
+    font-size: 1.25rem;
+    letter-spacing: 1.5;
+}
+header .image {}
+header .image img {width: 100vw; height: 40vh;}
+
+/* main */
+
+/* footer */
+footer {
+    background-color: yellow;
+    padding: 20px 50px;
+}
+footer h3 {
+    font-family: Gugi;
+    margin-bottom: 10px;
+}
+footer h3 img {width: 50px;}
+footer .copyright {font-family: 'Noto Sans KR';}
