@@ -2,7 +2,7 @@
 header {
     width: 100%;
     position: relative;
-
+    background-color: black;
 }
 header .text {
     width: 100vw;
@@ -34,6 +34,63 @@ header .image {}
 header .image img {width: 100vw; height: 40vh;}
 
 /* main */
+main {
+    background-color: black;
+    font-family: 'Noto Sans KR';
+}
+main .trainer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+main .trainer h1 {
+    padding: 50px 0;
+    color: yellow;
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+main .trainer .tr_contents {
+    width: 800px; height: 300px;
+    background-color: yellow;
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+main .trainer .tr_contents .tr_photo {}
+main .trainer .tr_contents .tr_photo img {width: 300px; height: 300px;}
+main .trainer .tr_contents .tr_info {margin-left: 50px;}
+main .trainer .tr_contents .tr_info h2 {
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+main .trainer .tr_contents .tr_info ul {}
+main .trainer .tr_contents .tr_info ul li {}
+main .consulting {}
+main .consulting h1 {
+    padding: 100px 0 50px;
+    color: yellow;
+    font-size: 1.875rem;
+    font-weight: 700;
+    font-family: 'Noto Sans KR';
+}
+main .consulting form {}
+main .consulting form fieldset {}
+main .consulting form fieldset table {border: 1px solid white;}
+main .consulting form fieldset table thead {}
+main .consulting form fieldset table thead tr {}
+main .consulting form fieldset table thead tr th {}
+main .consulting form fieldset table tbody {}
+main .consulting form fieldset table tbody tr {}
+main .consulting form fieldset table tbody tr th {}
+main .consulting form fieldset table tbody tr td {}
+main .consulting form fieldset table tbody tr td .user_name {}
+main .consulting form fieldset table tbody tr td .user_tel {}
+main .consulting form fieldset table tbody tr td .user_q {}
+main .consulting form fieldset button {}
 
 /* footer */
 footer {

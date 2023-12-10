@@ -2,7 +2,7 @@
 header {
     width: 100%;
     position: relative;
-
+    background-color: black;
 }
 header .text {
     width: 100vw;
@@ -34,6 +34,74 @@ header .image {}
 header .image img {width: 100vw; height: 40vh;}
 
 /* main */
+main {background-color: black;}
+main .intro {}
+main .intro h1 {
+    padding: 50px 0;
+    color: yellow;
+    font-size: 1.875rem;
+    font-weight: 700;
+    font-family: 'Noto Sans KR';
+    text-align: center;
+}
+main .intro h1 em {
+    font-family: Gugi;
+    font-size: 1.875rem;
+    color: yellow;
+}
+main .intro .intro_contents {
+    padding: 0 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+main .intro .intro_contents li {
+    width: 500px; height: 500px;
+    background-color: yellow;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+main .intro .intro_contents li img {
+    width: 400px; height: 400px;
+    margin-bottom: 10px;
+}
+main .intro .intro_contents li span {
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+main .center_intro {text-align: center;}
+main .center_intro h1 {
+    padding: 100px 0 50px;
+    color: yellow;
+    font-size: 1.875rem;
+    font-weight: 700;
+    font-family: 'Noto Sans KR';
+}
+main .center_intro .center_photo {}
+main .center_intro .center_photo img {
+    width: 600px; height: 400px;
+}
+main .map {text-align: center;}
+main .map h1 {
+    padding: 100px 0 50px;
+    color: yellow;
+    font-size: 1.875rem;
+    font-weight: 700;
+    font-family: 'Noto Sans KR';
+}
+main .map .center_map {}
+main .map .center_map img {}
+main .map p {
+    padding: 20px 0;
+    color: yellow;
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    font-size: 1.25rem;
+}
 
 /* footer */
 footer {

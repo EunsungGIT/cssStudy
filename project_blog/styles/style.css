@@ -20,12 +20,6 @@ header .text h1 a {
     font-size: 1.875rem;
 }
 header .text h1 a img {width: 50px;}
-header .main_text {
-    color: white;
-    position: absolute;
-    text-align: center;
-    padding: 30%;
-}
 header .text nav {}
 header .text nav a {
     color: white;
