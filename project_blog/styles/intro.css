@@ -35,7 +35,7 @@ header .image {}
 header .image img {width: 100vw; height: 40vh;}
 
 /* main */
-/* main {background-color: black;}
+main {background-color: black;}
 main .intro {}
 main .intro h1 {
     padding: 50px 0;
@@ -102,4 +102,4 @@ main .map p {
     font-family: 'Noto Sans KR';
     font-weight: 500;
     font-size: 1.25rem;
-} */
+}
