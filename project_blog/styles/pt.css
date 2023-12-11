@@ -36,6 +36,7 @@ header .image img {width: 100vw; height: 40vh;}
 
 /* main */
 main {
+    background-color: black;
     font-family: 'Noto Sans KR';
 }
 main .trainer {
@@ -82,21 +83,28 @@ main .price h1 {
     color: yellow;
     font-size: 1.875rem;
     font-weight: 700;
+    text-align: center;
 }
 main .price #pt_price {
     width: 40%;
     margin: 50px auto 0;
 }
-main .price #pt_price thead {border-bottom: 2px solid black;}
+main .price #pt_price thead {border-bottom: 2px solid yellow;}
 main .price #pt_price thead tr {}
-main .price #pt_price thead tr th {padding: 20px;}
+main .price #pt_price thead tr th {
+    padding: 20px;
+    color: yellow;
+}
 main .price #pt_price thead tr th :nth-child(1) {width: 100px;}
 main .price #pt_price tbody {}
 main .price #pt_price tbody tr {}
-main .price #pt_price tbody tr th {}
-main .price #pt_price tbody tr td {padding: 10px;}
-main .price #pt_price tbody tr td del {}
-main .consulting form {background-color: lime;}
+main .price #pt_price tbody tr th {color: yellow;}
+main .price #pt_price tbody tr td {
+    padding: 10px;
+    color: yellow;
+}
+main .price #pt_price tbody tr td del {color: yellow;}
+main .consulting form {background-color: white;}
 /* main .consulting form fieldset {}
 main .consulting form fieldset .pt_consulting {border: 1px solid white;}
 main .consulting form fieldset .pt_consulting thead {}
