@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PT 상담 | GYM</title>
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/pt.css">
     <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/pt.css">
 </head>
 <body>
     <header>
@@ -65,32 +66,77 @@
                 </div>
             </div>
         </section>
+        <section class="price">
+            <h1>PT 가격표</h1>
+            <table id="pt_price">
+                <thead>
+                    <tr>
+                        <th>횟수</th>
+                        <th>원가</th>
+                        <th>할인가</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">10회</th>
+                        <td><del>1,000,000</del></td>
+                        <td>600,000</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">20회</th>
+                        <td><del>2,000,000</del></td>
+                        <td>1,000,000</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">30회</th>
+                        <td><del>3,000,000</del></td>
+                        <td>1,350,000</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">50회</th>
+                        <td><del>5,000,000</del></td>
+                        <td>2,000,000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
         <section class="consulting">
             <h1>PT 상담 예약하기</h1>
             <form action="#" method="post">
                 <fieldset>
                     <legend class="skip">PT 문의 양식</legend>
-                    <table>
+                    <table id="pt_consulting">
                         <thead>
                             <tr>
-                                <th colspan="2">PT 문의</th>
+                                <th colspan="2" scope="col">PT 문의</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <th>이름</th>
+                                <th scope="row">이름</th>
                                 <td>
                                     <input type="text" placeholder="이름을 입력해주세요" name="user_name" class="user_name">
                                 </td>
                             </tr>
                             <tr>
-                                <th>전화번호</th>
+                                <th scope="row">전화번호</th>
                                 <td>
                                     <input type="tel" placeholder="전화번호를 입력해주세요" name="user_tel" class="user_tel">
                                 </td>
                             </tr>
                             <tr>
-                                <th>문의사항</th>
+                                <th scope="row">트레이너</th>
+                                <td>
+                                    <select name="user_tr" id="user_tr">
+                                        <option value="">000 대표</option>
+                                        <option value="">000 매니저</option>
+                                        <option value="">000 트레이너</option>
+                                        <option value="">무관</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">문의사항</th>
                                 <td>
                                     <textarea name="user_q" id="" cols="30" rows="10"></textarea>
                                 </td>

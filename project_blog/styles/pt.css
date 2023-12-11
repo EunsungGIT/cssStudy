@@ -1,3 +1,4 @@
+/* pt.html(PT 상담) 전용css */
 /* header */
 header {
     width: 100%;
@@ -35,7 +36,6 @@ header .image img {width: 100vw; height: 40vh;}
 
 /* main */
 main {
-    background-color: black;
     font-family: 'Noto Sans KR';
 }
 main .trainer {
@@ -75,31 +75,38 @@ main .consulting h1 {
     color: yellow;
     font-size: 1.875rem;
     font-weight: 700;
-    font-family: 'Noto Sans KR';
 }
-main .consulting form {}
-main .consulting form fieldset {}
-main .consulting form fieldset table {border: 1px solid white;}
-main .consulting form fieldset table thead {}
-main .consulting form fieldset table thead tr {}
-main .consulting form fieldset table thead tr th {}
-main .consulting form fieldset table tbody {}
-main .consulting form fieldset table tbody tr {}
-main .consulting form fieldset table tbody tr th {}
-main .consulting form fieldset table tbody tr td {}
-main .consulting form fieldset table tbody tr td .user_name {}
-main .consulting form fieldset table tbody tr td .user_tel {}
-main .consulting form fieldset table tbody tr td .user_q {}
-main .consulting form fieldset button {}
-
-/* footer */
-footer {
-    background-color: yellow;
-    padding: 20px 50px;
+main .price {}
+main .price h1 {
+    padding-top: 100px;
+    color: yellow;
+    font-size: 1.875rem;
+    font-weight: 700;
 }
-footer h3 {
-    font-family: Gugi;
-    margin-bottom: 10px;
+main .price #pt_price {
+    width: 40%;
+    margin: 50px auto 0;
 }
-footer h3 img {width: 50px;}
-footer .copyright {font-family: 'Noto Sans KR';}
+main .price #pt_price thead {border-bottom: 2px solid black;}
+main .price #pt_price thead tr {}
+main .price #pt_price thead tr th {padding: 20px;}
+main .price #pt_price thead tr th :nth-child(1) {width: 100px;}
+main .price #pt_price tbody {}
+main .price #pt_price tbody tr {}
+main .price #pt_price tbody tr th {}
+main .price #pt_price tbody tr td {padding: 10px;}
+main .price #pt_price tbody tr td del {}
+main .consulting form {background-color: lime;}
+/* main .consulting form fieldset {}
+main .consulting form fieldset .pt_consulting {border: 1px solid white;}
+main .consulting form fieldset .pt_consulting thead {}
+main .consulting form fieldset .pt_consulting thead tr {}
+main .consulting form fieldset .pt_consulting thead tr th {}
+main .consulting form fieldset .pt_consulting tbody {}
+main .consulting form fieldset .pt_consulting tbody tr {}
+main .consulting form fieldset .pt_consulting tbody tr th {}
+main .consulting form fieldset .pt_consulting tbody tr td {}
+main .consulting form fieldset .pt_consulting tbody tr td .user_name {}
+main .consulting form fieldset .pt_consulting tbody tr td .user_tel {}
+main .consulting form fieldset .pt_consulting tbody tr td .user_q {}
+main .consulting form fieldset button {} */

@@ -1,3 +1,4 @@
+/* intro.html(헬스장 소개) 전용css */
 /* header */
 header {
     width: 100%;
@@ -34,7 +35,7 @@ header .image {}
 header .image img {width: 100vw; height: 40vh;}
 
 /* main */
-main {background-color: black;}
+/* main {background-color: black;}
 main .intro {}
 main .intro h1 {
     padding: 50px 0;
@@ -101,16 +102,4 @@ main .map p {
     font-family: 'Noto Sans KR';
     font-weight: 500;
     font-size: 1.25rem;
-}
-
-/* footer */
-footer {
-    background-color: yellow;
-    padding: 20px 50px;
-}
-footer h3 {
-    font-family: Gugi;
-    margin-bottom: 10px;
-}
-footer h3 img {width: 50px;}
-footer .copyright {font-family: 'Noto Sans KR';}
+} */
