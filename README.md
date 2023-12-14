@@ -84,3 +84,8 @@
 * `position:sticky` 속성을 넣고 어떤 좌표부터 붙어있을 지 `left, right, top, bottom` 중 1가지 속성을 적용한다.
 * `header`의 세로크기가 `height:100px`일 경우 `100px` 그대로 상단에 붙어있고 싶다면 `position:sticky; top:0`
 * `header`의 세로크기가 `height:100px`일 경우 내비게이션의 `height:50px`인데 내비게이션부터 붙어있게 하고 싶다면 `position:sticky; top:-50px`로 입력한다.
+----
+# responsive 
+* 반응형/적응형 제작 준비
+1. {모바일부터 시작하는 경우} - min-width 규칙 작은 값 -> 큰 값 순서로 작성
+2. {테스크탑부터 시작하는 경우} - min-width 규칙 큰 값 -> 작은 값 순서로 작성
